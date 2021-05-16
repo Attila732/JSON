@@ -1,0 +1,55 @@
+main{
+    margin: auto;
+    width: 900px;
+    background-color: plum;
+}
+header{
+    margin-bottom: 20px;
+    text-align: center;
+}
+#formBevitel{
+    text-align: center;
+}
+#formBevitel{
+    display: grid;
+    grid-template-areas:"n a r k t";
+    
+}
+#termekNevDiv{
+    grid-area: n;
+}
+#termekAzonDiv{
+    grid-area: a;
+}
+#termekArDiv{
+    grid-area: r;
+}
+#termekKeszletDiv{
+    grid-area: k;
+}
+#termekKategoriaDiv{
+    grid-area: t;
+}
+h3{
+    text-align: center;
+}
+tr{
+    padding-bottom: 10px;
+    
+}
+th{
+    padding: 10px;
+    border: 1px solid black;
+}
+table{
+    margin: auto;
+    width: 880px;
+}
+#gomb{
+    padding-top: 10px;
+    display: grid;
+    justify-content: center;
+}
+footer{
+    text-align: center;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Ménesi Csaba</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link href="newcss.css" rel="stylesheet" type="text/css"/>
+        <script src="newjavascript.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <main>
+            <header><h1>Webshop whith JSON/JS</h1></header>
+            <article>
+                <div id="fent">
+                <h3>Új termék hozzáadása</h3>
+                <form id="formBevitel">
+                    <div id="termekNevDiv">
+                        <label id="nev" for="temekNev">A termék neve:</label><br>
+                        <input type="text" id="temekNev" name="temekNev">
+                    </div>
+                    <div id="termekAzonDiv">
+                        <label id="azon" for="termekAzon">Azonosító száma:</label><br>
+                        <input type="text" id="termekAzon" name="termekAzon">
+                    </div>
+                    <div id="termekArDiv">
+                        <label id="ar" for="termekAr">A termék ára:</label><br>
+                        <input type="text" id="termekAr" name="termekAr">
+                        
+                    </div>
+                    <div id="termekKeszletDiv">
+                        <label id="keszlet" for="termekKeszlet">készlet (db):</label><br>
+                        <input type="text" id="termekKeszlet" name="termekKeszlet">
+                    </div>
+                    <div id="termekKategoriaDiv">
+                        <label id="kategoria" for="termekKategoria">készlet (db):</label><br>
+                        <select name="kategoria" id="termekKategoria">
+                            <option value="haztartasi">haztartasi kisgép</option>
+                            <option value="auto">auto/motor alkatrész</option>
+                            <option value="szépségápolás">szépségápolás</option>
+                            <option value="Szórakoztató elektronika">Szórakoztató elektronika</option>
+                        </select>
+                    </div>
+                </form>
+                </div>
+                <div id="gomb"><input id="sub" type="submit" value="Hozzáadás"></div>
+                <div id="lent">
+                <h3>Jelenleg aktív termékek</h3>
+                <table>
+                    <tr>
+                        <th>Név</th>
+                        <th>Azonosító</th>
+                        <th>Ár</th>
+                        <th>Készlet</th>
+                        <th>kategória</th>
+                        <th>Leírás</th>
+                        <th>Törlés</th>
+                    </tr>
+                </table>
+                </div>
+            </article>
+            <footer>Minden jog fenntartva</footer>
+        </main>
+    </body>
+</html>
